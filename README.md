@@ -4,6 +4,10 @@
 - Alpine 3.18
 - FIO 3.34
 
+## Docker hub
+```bash
+docker pull psyd01986/docker-iops:1.0
+```
 -	**Maintained by**:
 	[tool-dockers](https://github.com/tool-dockers/docker-iops)
 
