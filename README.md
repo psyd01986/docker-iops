@@ -1,5 +1,9 @@
 # Quick reference
 
+## Обновление
+- Alpine 3.18
+- FIO 3.34
+
 -	**Maintained by**:
 	[tool-dockers](https://github.com/tool-dockers/docker-iops)
 

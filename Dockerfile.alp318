@@ -1,15 +1,15 @@
-FROM alpine:3.11
+FROM alpine:3.18
 
 ARG VERSION
 
 LABEL \
-    "name"="tooldockers/iops" \
-    "maintainer"="tool-dockers" \
+    "name"="psyd01986/docker-iops" \
+    "maintainer"="psyd01986" \
     "version"="${VERSION}" \
-    "release"="3.16" \
+    "release"="3.34" \
     "vendor"="tool-dockers" \
     "summary"="I/O performance statistics" \
-    "description"="Alpine-based Docker containing fio, and ioping, a filesystem benchmarking tool."
+    "description"="Alpine-based Docker containing fio 3.34, and ioping, a filesystem benchmarking tool."
 
 # Create a iops user and group first so the IDs get set the same way, even as
 # the rest of this may change over time.
